@@ -8,7 +8,7 @@ Nearly 20 years ago, I had a bout of insomnia. Instead of counting sheep that ni
 
 I didn't know how to program very well at the time, so my attempt to test the pseudocode I wrote down was a failure. For the record, I slept very little that night. 
 
-I have since lost that pseudocode and forgot the details, but suddenly recalled parts of the methodoloty. Using pieces of that recollection plus some prime factorization checks, I have successfully generated primes in a range of 0-1,000,000 with this code. Since I'm getting only 41686 primes in that range, It looks like I'm skipping round 30K primes, though.
+I have since lost that pseudocode and forgot the details, but suddenly recalled parts of the methodoloty. Using pieces of that recollection plus some prime factorization checks, I have successfully generated primes in a range of 0-1,000,000 with this code. Since I'm getting only 41686 primes in that range, It looks like I'm skipping around 30K primes, though.
 
 Right now, setting both `n` to a higher number while setting `lim` to a higher number results in some erratic behavior that I am working on. I would like to explore using `n` and `lim` as a range.
 
