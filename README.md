@@ -50,6 +50,7 @@ random 281833
 ## Contribution
 If you are a mathematician, it would be great to have your feedback and/or PR on this algorithm. 
 - Is my approach completely wrong?
+- Why are divisibles of 5 showing up as prime? Swore I handled that!
 - Is there a way to make it run faster for larger ranges without needing to switch to a language like python, rust or golang?
 - Could I modify the algorithm to no longer need prime factorization as a check?
 - Is there something I can tweak to get the **next** prime number? I know that's a lofty goal since it is not possible yet, mathematically. But perhaps my amateur approach could create some ideas.
