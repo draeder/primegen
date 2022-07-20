@@ -1,3 +1,6 @@
+# Arbitrary
+*.bak
+test.js
 # Logs
 logs
 *.log
