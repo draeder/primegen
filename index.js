@@ -1,4 +1,4 @@
-let lim = 500_000
+let lim = 100_000
 let n = 0
 
 let primes = []
@@ -17,7 +17,7 @@ const factors = num => {
   if(shift(tmp, 2) === tmp || shift(tmp, 3) === tmp) {
     return false
   }
-  else if(Object.keys(result).length === 1 && tmp % 3 !== 0) {
+  else if(Object.keys(result).length === 1 && tmp % 3 !== 0 && tmp % 5 !== 0) {
     return true
   }
 }
