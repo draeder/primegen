@@ -29,7 +29,7 @@ while p.length <= lim
   c++
 ```
 
-With `n = 0` and `lim = 1_000_000`, the implementation outputs:
+With `n = 0` and `lim = 100_000`, the implementation outputs:
 ```js
 [
     1,   3,   7,  11,  13,  17,  19,  23,  29,  31,  37,  41,
