@@ -8,7 +8,7 @@ Nearly 20 years ago, I had a bout of insomnia. Instead of counting sheep that ni
 
 I didn't know how to program very well at the time, so my attempt to test the pseudocode I wrote down was a failure. For the record, I slept very little that night. 
 
-I have since lost that pseudocode and forgot the details, but suddenly recalled parts of the methodoloty. Using pieces of that recollection plus some prime factorization checks, I have successfully generated primes in a range of 0-1,000,000 with this code. Since I'm getting only 41686 primes in that range, It looks like I'm skipping round 30K primes, though.
+I have since lost that pseudocode and forgot the details, but suddenly recalled parts of the methodoloty. Using pieces of that recollection plus some prime factorization checks, I have successfully generated primes in a range of 0-1,000,000 with this code. Since I'm getting only 41686 primes in that range, It looks like I'm skipping around 30K primes, though.
 
 Right now, setting both `n` to a higher number while setting `lim` to a higher number results in some erratic behavior that I am working on. I would like to explore using `n` and `lim` as a range.
 
@@ -31,25 +31,26 @@ while p.length <= lim
 
 With `n = 0` and `lim = 1_000_000`, the implementation outputs:
 ```js
-last 500009
-random 281833
 [
-    1,   3,   5,   7,  11,  13,  17,  19,  23,  25,  29,  31,
-   37,  41,  43,  47,  49,  53,  59,  61,  67,  71,  73,  79,
-   83,  89,  97, 101, 103, 107, 109, 113, 121, 125, 127, 131,
-  137, 139, 149, 151, 157, 163, 167, 169, 173, 179, 181, 191,
-  193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257,
-  263, 269, 271, 277, 281, 283, 289, 293, 307, 311, 313, 317,
-  331, 337, 343, 347, 349, 353, 359, 361, 367, 373, 379, 383,
-  389, 397, 401, 409, 419, 421, 431, 433, 439, 443, 449, 457,
-  461, 463, 467, 479,
-  ... 41598 more items
+    1,   3,   7,  11,  13,  17,  19,  23,  29,  31,  37,  41,
+   43,  47,  49,  53,  59,  61,  67,  71,  73,  79,  83,  89,
+   97, 101, 103, 107, 109, 113, 121, 127, 131, 137, 139, 149,
+  151, 157, 163, 167, 169, 173, 179, 181, 191, 193, 197, 199,
+  211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271,
+  277, 281, 283, 289, 293, 307, 311, 313, 317, 331, 337, 343,
+  347, 349, 353, 359, 361, 367, 373, 379, 383, 389, 397, 401,
+  409, 419, 421, 431, 433, 439, 443, 449, 457, 461, 463, 467,
+  479, 487, 491, 499,
+  ... 9570 more items
 ]
+last 100003
+random 54277
 ```
 
 ## Contribution
 If you are a mathematician, it would be great to have your feedback and/or PR on this algorithm. 
 - Is my approach completely wrong?
+- Why are divisibles of 5 showing up as prime? Swore I handled that!
 - Is there a way to make it run faster for larger ranges without needing to switch to a language like python, rust or golang?
 - Could I modify the algorithm to no longer need prime factorization as a check?
 - Is there something I can tweak to get the **next** prime number? I know that's a lofty goal since it is not possible yet, mathematically. But perhaps my amateur approach could create some ideas.
