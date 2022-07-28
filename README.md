@@ -1,7 +1,7 @@
 # Primeget (WIP)
 ## Generates prime numbers algorithmically
 
-Primeget is a prime number generator combined with a prime checking method to discard non-primes. It is capable of generating primes between a given range.
+Primeget is a prime number generator combined with a prime checking method to discard non-primes. It is capable of generating primes from a given range.
 
 Generating the primes in `n = 9_000_000_000_000_000` to `z = 9_000_000_000_001_000` takes approximately ~29s.
 
