@@ -1,6 +1,6 @@
 {
   "name": "primeget",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate (all?) primes algorithimically",
   "main": "index.js",
   "type": "module",
@@ -24,10 +24,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/draeder/primegen.git"
+    "url": "git+https://github.com/draeder/primeget.git"
   },
   "bugs": {
-    "url": "https://github.com/draeder/primegen/issues"
+    "url": "https://github.com/draeder/primeget/issues"
   },
-  "homepage": "https://github.com/draeder/primegen#readme"
+  "homepage": "https://github.com/draeder/primeget#readme"
 }
