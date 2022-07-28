@@ -1,10 +1,14 @@
 {
-  "name": "primegen",
-  "version": "1.0.0",
+  "name": "primeget",
+  "version": "1.0.1",
   "description": "Generate (all?) primes algorithimically",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "primegen": "cli/cli.js"
   },
   "keywords": [
     "prime",
@@ -12,5 +16,18 @@
     "generator"
   ],
   "author": "Daniel Raeder",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "carets": "^2.5.0",
+    "pryme": "^1.0.8"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draeder/primegen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/draeder/primegen/issues"
+  },
+  "homepage": "https://github.com/draeder/primegen#readme"
 }

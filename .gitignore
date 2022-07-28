@@ -1,6 +1,8 @@
 # Arbitrary
+backup
 *.bak
-test.js
+test*.js
+notes.txt
 # Logs
 logs
 *.log
