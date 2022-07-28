@@ -134,7 +134,7 @@ primeget > 'quit' or 'exit' or 'bye' or 'close' or 'end' or 'ctrl+c'
 ## About
 > I'm not a mathemetician. But I can count sheep.
 
-Nearly 20 years ago, I had a bout of insomnia. Instead of counting sheep that night, I calculated prime numbers starting with `0 + 1 = prime`, then `1 + 1 != prime`, then `1 + 2 = prime`, and so-on, along with some subtraction between the previous two primes. I realized the system I devised worked with larger numbers, too.
+Nearly 20 years ago, I had a bout of insomnia. Instead of counting sheep that night, I calculated prime numbers starting with `0 + 1 != prime`, then `1 + 1 = prime`, then `1 + 2 = prime`, and so-on, along with some subtraction between the previous two primes. I realized the system I devised worked with larger numbers, too.
 
 I didn't know how to program very well at the time, so my attempt to test the pseudocode I wrote down was a failure. For the record, I slept very little that night. 
 
