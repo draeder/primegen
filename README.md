@@ -20,6 +20,7 @@ primes = primeget(97, 0)
 */
 
 primes = primeget(10, 0)
+let set = [...new Set(primes)].sort((a, b) => a - b)
 /*
 [
     3,   5,   7,  11,  13,  17,  19,  23,  29,  31,  37,  41,
