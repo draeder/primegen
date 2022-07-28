@@ -1,4 +1,5 @@
 import primeget from './primeget.js'
+
 let n = 9_006_999_999_998_000
 let z = 9_006_999_999_999_000
 

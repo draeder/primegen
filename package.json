@@ -1,6 +1,6 @@
 {
   "name": "primeget",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Generate (all?) primes algorithimically",
   "main": "index.js",
   "type": "module",

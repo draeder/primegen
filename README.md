@@ -39,7 +39,6 @@ primes = primeget(10, 0)
 ### Example
 ```js
 import Primeget from 'primeget'
-let primeget = new Primeget()
 
 let n = 9_006_999_999_998_000
 let z = 9_006_999_999_999_000
@@ -58,6 +57,21 @@ console.log('Total:', primes.length)
 
 ## API
 My goal was to create a simple API for this sheep counting prime number generator. It should be quite flexible. The CLI I built is an example of how it can be extended. Submit an [issue](https://github.com/draeder/Primeget/issues) if it doesn't meet your needs.
+
+### API Usage
+```js
+import Primeget from '../api.js'
+import { check } from '../primeget.js'
+
+let primeget = new Primeget()
+
+let isPrime = check(101) // true
+```
+
+### `check(n)`
+Check if `n` is prime
+
+Returns `true` if prime, `false` if not prime
 
 ### `primeget.make(n, z)`
 Generate a set of prime numbers starting wih `n` until `z`.
