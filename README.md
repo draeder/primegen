@@ -137,7 +137,7 @@ Nearly 20 years ago, I had a bout of insomnia. Instead of counting sheep that ni
 
 I didn't know how to program very well at the time, so my attempt to test the pseudocode I wrote down was a failure. For the record, I slept very little that night. 
 
-I have since lost that pseudocode and forgot the details, but suddenly recalled parts of the methodoloty. Using pieces of that recollection plus a prime check and passing in previous primes, I have been successful at generating primes with this code.
+I have since lost that pseudocode and forgot the details, but suddenly recalled parts of the methodology. Using pieces of that recollection plus a prime check and passing in previous primes, I have been successful at generating primes with this code.
 
 ## Contribution
 If you are a mathematician, it would be great to have your feedback and/or PR on this algorithm!
